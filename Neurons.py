@@ -43,10 +43,6 @@ layers = []
 for i in range(len(nodes) - 1):
     layers.append(Layer(nodes[i], nodes[i+1]))
 
-# Activation function (optional)
-def Activation_Function(x):
-    return 0.2 * power(x, 4) + 0.1 * power(x, 3) - power(x, 2) + 2
-
 def softmax(x):
     e_x = exp(x - max_value(x, axis=1, keepdims=True))  # prevent overflow
     return e_x / sum_total(e_x, axis=1, keepdims=True)
