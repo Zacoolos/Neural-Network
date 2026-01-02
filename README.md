@@ -1,2 +1,2 @@
 # Neural-Network
-I've challenged myself to write a neural network that A. understands a chess position based on shapes in the image and B. perhaps get some advice from the network on what the next move should be.
+Basic Neural Network made to learn all the important concepts that allow for lines of code to act like a real human brain and even make mistakes!!!
